@@ -1,7 +1,44 @@
-header {
-    background-color: #8870c3
+nav {
+    font:  300 14px Helvetica, Arial, sans-serif;
+    background-color: #eab4d9
+}
+
+a:link {
+    color: #8400b9;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #490049;
+}
+  
+a:hover {
+    color: #ba6bce;
+    text-decoration: none;
 }
 
 h1, h2 {
-    font: 700 Arial, Helvetica, sans-serif
+    font:  700 30px Helvetica, Arial, sans-serif
+    
+}
+
+p {
+    color:#690c2c;
+    font:  300 14px Helvetica, Arial, sans-serif
+}
+
+header {
+    background-color: #eedce8
+}
+
+section {
+    background-color: #f8eff5
+}
+
+table {
+    background-color: #e6ccf2
+}
+
+caption {
+    font:  300 14px Helvetica, Arial, sans-serif
 }
