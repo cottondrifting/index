@@ -1,5 +1,9 @@
+body {
+    background-color: #bf8ecb;
+}
+
 nav {
-    font:  300 14px Helvetica, Arial, sans-serif;
+    font: 300 14px Helvetica, Arial, sans-serif;
     background-color: #eab4d9
 }
 
@@ -7,24 +11,29 @@ a:link {
     color: #8400b9;
     text-decoration: none;
 }
-  
+
 a:visited {
     color: #490049;
 }
-  
+
 a:hover {
     color: #ba6bce;
     text-decoration: none;
 }
 
-h1, h2 {
-    font:  700 30px Helvetica, Arial, sans-serif
-    
+h1 {
+    color: #7e30d7;
+    font: 800 39px "Courier New", monospace
+}
+
+h2 {
+    color: #9617a1;
+    font: 600 26px "Courier New", monospace
 }
 
 p {
-    color:#690c2c;
-    font:  300 14px Helvetica, Arial, sans-serif
+    color: #690c2c;
+    font: 300 14px Helvetica, Arial, sans-serif
 }
 
 header {
@@ -36,9 +45,24 @@ section {
 }
 
 table {
+    font: 300 14px Helvetica, Arial, sans-serif;
+    color: #690c2c;
     background-color: #e6ccf2
 }
 
 caption {
-    font:  300 14px Helvetica, Arial, sans-serif
+    font: 300 14px Helvetica, Arial, sans-serif
+}
+
+footer {
+    font: 300 14px Helvetica, Arial, sans-serif;
+    background-color: #eab4d9
+}
+
+.pcolor {
+    color: #ffffff;
+}
+
+.secolor {
+    background-color: #c8a2e5
 }
