@@ -4,11 +4,11 @@ body {
 
 nav {
     font: 300 14px Helvetica, Arial, sans-serif;
-    background-color: #eab4d9
+    background-color: #f6cbe8
 }
 
 a:link {
-    color: #8400b9;
+    color: #7700a7;
     text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ caption {
 
 footer {
     font: 300 14px Helvetica, Arial, sans-serif;
-    background-color: #eab4d9
+    background-color: #f6cbe8
 }
 
 .pcolor {
