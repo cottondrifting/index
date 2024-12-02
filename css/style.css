@@ -36,6 +36,11 @@ p {
     font: 300 14px Helvetica, Arial, sans-serif
 }
 
+figcaption {
+    color: #690c2c;
+    font: 300 14px Helvetica, Arial, sans-serif
+}
+
 header {
     background-color: #eedce8
 }
