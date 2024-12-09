@@ -71,3 +71,13 @@ footer {
 .secolor {
     background-color: #c8a2e5
 }
+
+form {
+    color: #690c2c;
+    font: 300 14px Helvetica, Arial, sans-serif
+}
+
+::placeholder {
+    color: #ca859d;
+    font: 300 14px Helvetica, Arial, sans-serif
+}
