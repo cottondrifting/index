@@ -32,48 +32,51 @@
 
     <h1>Review an album!</h1>
 
-    <form id="review" method="POST" action="mailto:mymichell484@gmail.com">
+    <form id="review" action="mailto:mymichell484@gmail.com" method="POST">
         <fieldset>
             <legend>Album Name</legend>
-            <label for="name">Enter here:</label>
-            <input type="text" id="name" name="name" placeholder="Album name..." required>
+            <label for="name">What's it called?</label>
+            <input type="text" name="albumname" id="albumname" placeholder="Album name...">
         </fieldset>
 
         <fieldset>
             <legend>Write your review!</legend>
-            <label for="message">Leave it here:</label>
-            <textarea id="message" name="message" rows="5" placeholder="Write a review..."></textarea>
+            <textarea name="review" id="review" rows="4" placeholder="Enter your review here..."></textarea>
         </fieldset>
 
         <fieldset>
-            <legend>Pick!</legend>
+            <legend>Your overall opinion?</legend>
             <label>Choose one:</label>
-            <input type="radio" id="option1" name="choice" value="Option 1">
-            <label for="option1">I loved it</label>
-            <input type="radio" id="option2" name="choice" value="Option 2">
-            <label for="option2">I hated it</label>
-
-            <label>Pick again!</label>
-            <input type="checkbox" id="checkbox1" name="features" value="Feature 1">
-            <label for="checkbox1">Will recommend</label>
-            <input type="checkbox" id="checkbox2" name="features" value="Feature 2">
-            <label for="checkbox2">NEVER will recommend</label>
+            <input type="radio" name="choice" id="choice1" value="choice 1">
+            <label for="option1">It was cool</label>
+            <input type="radio" name="choice" id="choice2" value="choice 2">
+            <label for="option2">It was meh</label>
+            <input type="radio" name="choice" id="choice3" value="choice 3">
+            <label for="option3">I disliked it</label>
         </fieldset>
 
         <fieldset>
-            <legend>I rate it</legend>
-            <label for="dropdown">Choose an option:</label>
-            <select id="dropdown" name="options">
-                <option value="Option 1">1/3</option>
-                <option value="Option 2">2/3</option>
-                <option value="Option 3">3/3</option>
+            <legend>Do you recommend this album?</legend>
+            <input type="checkbox" name="check" id="check1" value="check 1">
+            <label for="check1">I would recommend</label>
+            <input type="checkbox" name="check" id="check2" value="check 2">
+            <label for="check2">Would not recommend</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>I rate it...</legend>
+            <select name="rating" size="4">
+                <option value="Option 1">1 star</option>
+                <option value="Option 2">2 stars</option>
+                <option value="Option 3">3 stars</option>
+                <option value="Option 4">4 stars</option>
+                <option value="Option 5">5 stars</option>
             </select>
         </fieldset>
 
-        <div class="button-group">
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-        </div>
+        <input type="reset" value="Start over">
+        <input type="submit">
+
     </form>
 
     <footer>
