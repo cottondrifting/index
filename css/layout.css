@@ -1,13 +1,13 @@
 .figures {
     height: auto;
-	width: 180px;
+    width: 180px;
     max-width: 100%;
-	margin-left: 5px;
+    margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-	padding: 10px;
-	border: 4px rgb(166, 134, 204) dotted;
+    padding: 10px;
+    border: 4px rgb(166, 134, 204) dotted;
     border-radius: 14px;
 }
 
@@ -19,14 +19,14 @@
 }
 
 .figv1 {
-    float:left;
-    clear:both;
+    float: left;
+    clear: both;
     margin-right: 3%
 }
 
 .figv2 {
-    float:right;
-    clear:both;
+    float: right;
+    clear: both;
     margin-left: 3%
 }
 
@@ -47,7 +47,7 @@ main {
 }
 
 table {
-    margin:auto
+    margin: auto
 }
 
 .logo {
