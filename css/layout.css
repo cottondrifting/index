@@ -1,0 +1,56 @@
+.figures {
+    height: auto;
+	width: 180px;
+    max-width: 100%;
+	margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	padding: 10px;
+	border: 4px rgb(166, 134, 204) dotted;
+    border-radius: 14px;
+}
+
+.sections {
+    height: 360px;
+    width: 800px;
+    margin: 30px auto;
+    padding: 10px
+}
+
+.figv1 {
+    float:left;
+    clear:both;
+    margin-right: 3%
+}
+
+.figv2 {
+    float:right;
+    clear:both;
+    margin-left: 3%
+}
+
+.pics {
+    width: 175px;
+    height: 175px;
+}
+
+.navlist {
+    float: right;
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    width: 80vw;
+}
+
+table {
+    margin:auto
+}
+
+.logo {
+    position: fixed;
+    top: auto;
+    margin-left: 45%
+}
