@@ -18,6 +18,19 @@
     padding: 10px
 }
 
+.aboutsect {
+    height: 380px;
+    width: 800px;
+    margin: 57px auto;
+    padding: 10px
+}
+
+.about {
+    float: left;
+    clear: both;
+    margin-right: 3%
+}
+
 .figv1 {
     float: left;
     clear: both;
@@ -44,6 +57,10 @@
 main {
     width: 80vw;
     padding-top: 40px;
+}
+
+h1 {
+    margin-left: 20%;
 }
 
 table {

@@ -1,5 +1,5 @@
 body {
-    background-color: #bf8ecb;
+    background-color: #897dc0;
 }
 
 nav {
@@ -42,7 +42,7 @@ figcaption {
 }
 
 header {
-    background-color: #eedce8
+    background-color: #f4cde7
 }
 
 section {
@@ -51,8 +51,8 @@ section {
 
 table {
     font: 300 14px Helvetica, Arial, sans-serif;
-    color: #690c2c;
-    background-color: #e6ccf2
+    color: #ffe8f0;
+    background-color: #7b588a
 }
 
 caption {
@@ -69,7 +69,7 @@ footer {
 }
 
 .secolor {
-    background-color: #c8a2e5
+    background-color: #c4a4ff
 }
 
 form {
